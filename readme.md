@@ -32,11 +32,11 @@ $ npm install
 
 ## Rest Routes
 
-|name 	 |url 				  |verb    |desc.                       |
-|--------|--------------------|--------|----------------------------| 
-| INDEX  | /api/todos      	  |	GET    | Display a list of all dogs |
-| NEW    | /api/todos  		  |	POST   | Create new todo            |
-| CREATE | /api/todos      	  |	GET    | Retrieve a todo            |
-| SHOW   | /api/todos/:todoId | PUT    | Update a todo              |
-| EDIT	 | /api/todos/:todoId |	DELETE | Delete a todo              |
+|url 				         |verb     |desc.                        |
+|--------------------|---------|-----------------------------| 
+| /api/todos      	 |	GET    | Display a list of all todos |
+| /api/todos  		   |	POST   | Create new todo             |
+| /api/todos/:todoId |	GET    | Retrieve a todo             |
+| /api/todos/:todoId |  PUT    | Update a todo               |
+| /api/todos/:todoId |	DELETE | Delete a todo               |
 
